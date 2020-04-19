@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1587314011143,
+  "timestamp": 1587316207212,
   "index": "https://rishav0019.github.io/Mobiotics/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://rishav0019.github.io/Mobiotics/favicon.ico",
         "https://rishav0019.github.io/Mobiotics/index.html",
-        "https://rishav0019.github.io/Mobiotics/main-es2015.068c5f1da08cbfb3bfcb.js",
-        "https://rishav0019.github.io/Mobiotics/main-es5.068c5f1da08cbfb3bfcb.js",
+        "https://rishav0019.github.io/Mobiotics/main-es2015.58b9b20af1a229876912.js",
+        "https://rishav0019.github.io/Mobiotics/main-es5.58b9b20af1a229876912.js",
         "https://rishav0019.github.io/Mobiotics/manifest.webmanifest",
         "https://rishav0019.github.io/Mobiotics/polyfills-es2015.5b10b8fd823b6392f1fd.js",
         "https://rishav0019.github.io/Mobiotics/polyfills-es5.3e8196928d184a6e5319.js",
@@ -21,7 +21,8 @@
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto:300,400,500&display=swap",
-        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
       ]
     },
     {
@@ -52,9 +53,9 @@
     "https://rishav0019.github.io/Mobiotics/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://rishav0019.github.io/Mobiotics/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://rishav0019.github.io/Mobiotics/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://rishav0019.github.io/Mobiotics/index.html": "63aa98aad7ebacf60dabfa62a8cc701fdcc49942",
-    "https://rishav0019.github.io/Mobiotics/main-es2015.068c5f1da08cbfb3bfcb.js": "494e7a95c67eb08eac50c39453bee7d180ca103d",
-    "https://rishav0019.github.io/Mobiotics/main-es5.068c5f1da08cbfb3bfcb.js": "0b2ce76306f32490d4a552864382209f1c7dd77c",
+    "https://rishav0019.github.io/Mobiotics/index.html": "30729f2a04260a2287493619ded4cdee5827e755",
+    "https://rishav0019.github.io/Mobiotics/main-es2015.58b9b20af1a229876912.js": "fffdc33811e23df85b4428d77aed327376f03e7b",
+    "https://rishav0019.github.io/Mobiotics/main-es5.58b9b20af1a229876912.js": "a0980bd128afc6425b39bbacb83f978a65da568b",
     "https://rishav0019.github.io/Mobiotics/manifest.webmanifest": "4fd7da7d155c34cff02965ef8d7ae3e2f69f4a06",
     "https://rishav0019.github.io/Mobiotics/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
     "https://rishav0019.github.io/Mobiotics/polyfills-es5.3e8196928d184a6e5319.js": "a09a6044f37c73c715665663d2dcb61f666618a1",
