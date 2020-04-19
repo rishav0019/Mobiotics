@@ -1,0 +1,14 @@
+<div class="container">
+  <div>
+    <span>You have successfully placed your order of worth :</span>
+    <span>{{ totalPrice }}, Thanks you</span>
+  </div>
+  <button
+    mat-raised-button
+    class="btn button button-save"
+    [mat-dialog-close]="true"
+    cdkFocusInitial
+  >
+    close
+  </button>
+</div>

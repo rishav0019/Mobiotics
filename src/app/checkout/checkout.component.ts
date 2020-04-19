@@ -1,6 +1,7 @@
+import { SuccessDialogComponent } from "./../success-dialog/success-dialog.component";
 import { CartDetailsService } from "./../services/cart-details.service";
 import { Component, OnInit } from "@angular/core";
-import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
+import { MatDialog } from "@angular/material";
 
 @Component({
   selector: "app-checkout",
@@ -14,7 +15,10 @@ export class CheckoutComponent implements OnInit {
 
   productDetails: any[] = [];
   purchedProducts: any[] = [];
-  constructor(private cartDetailsService: CartDetailsService) {}
+  constructor(
+    private cartDetailsService: CartDetailsService,
+    public dialog: MatDialog
+  ) {}
 
   ngOnInit() {
     this.productDetails = this.cartDetailsService.items;
@@ -27,7 +31,7 @@ export class CheckoutComponent implements OnInit {
     let x = this.purchedProducts.find(
       (item) => item.productName === product.productName
     );
-    console.log(this.purchedProducts);
+    // console.log(this.purchedProducts);
 
     if (!x) {
       this.purchedProducts.push(product);
@@ -44,5 +48,24 @@ export class CheckoutComponent implements OnInit {
       this.totalPrice -= product.price;
     }
   }
-  addOneItem() {}
+  checkout() {
+    console.log(".........................");
+    if (this.totalPrice >= 0) {
+      // this.dialog.open(SuccessDialogComponent, {
+      //   width: "250px",
+      //   // height: "300px",
+      //   data: {
+      //     totalPrice: this.totalPrice,
+      //   },
+      // });
+    } else {
+      this.dialog.open(SuccessDialogComponent, {
+        width: "250px",
+        // height: "300px",
+        data: {
+          totalPrice: this.totalPrice,
+        },
+      });
+    }
+  }
 }
