@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 25%;
+
+}
+
+.card {
+  margin-bottom: 80px;
+
+}
+
+.item-container {
+  display: flex;
+
+}
+
+.description {
+  font-size: 20px;
+  width: 70%;
+}
+
+.first_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+
+}
+
+.offer_text {
+  /* font-weight: bold; */
+  font-size: 25px;
+  text-align: center;
+}
+
+.product_name {
+  font-weight: bold;
+  color: green;
+}
+
+ul {
+  list-style: none;
+}
+
+.selling_pice {
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.button li {
+  display: inline-block;
+  padding: 8px;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button_add {
+  cursor: pointer;
+  background: rgb(38, 255, 0);
+  border-radius: 12px;
+}
+
+.button_plus {
+  cursor: pointer;
+  border-radius: 50%;
+
+  background: rgb(38, 255, 0);
+}
+
+.button_minus {
+  cursor: pointer;
+
+  border-radius: 50%;
+  background: rgb(38, 255, 0);
+}
+
+.no_of_item {
+  font-size: 40px;
+  background: white;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  /* margin: 0 25%; */
+  width: 50%;
+  display: flex;
+  bottom: 2px;
+  justify-content: space-between;
+  background: rgb(238, 89, 238);
+  align-items: center;
+}
+
+.item-count {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  color: blue;
+}
+
+.checkout_button {
+  background: greenyellow;
+  margin-right: 20px;
+  padding: 12px 15px 12px 15px;
+  border-radius: 12px;
+}
+
+
+@media(max-width:40rem) {
+  .container {
+    padding: 0px;
+    /* margin: 0; */
+
+  }
+
+  .description {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .footer {
+    position: fixed;
+    /* margin: 0 25%; */
+    width: 100%;
+    display: flex;
+    bottom: 2px;
+    justify-content: space-between;
+    background: rgb(238, 89, 238);
+    align-items: center;
+  }
+
+  .button li {
+    display: inline-block;
+    padding: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

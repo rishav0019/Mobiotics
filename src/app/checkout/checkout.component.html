@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="card">
+    <div *ngFor=" let productDetail of productDetails">
+
+      <div class="item-container">
+        <div class="first_column">
+          <div class="image">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/512rQiXQNyL.jpg" alt="">
+          </div>
+          <div>
+            <span class="offer_text">{{productDetail.offerText}}</span>
+          </div>
+        </div>
+        <div class="description">
+          <ul class="product_desc">
+            <li class="product_name">{{productDetail.brandName}}</li>
+
+            <li class="product_detail">{{productDetail.productName}}</li>
+            <li class="quantity">{{productDetail.quantity}}</li>
+            <li class="mrp_price">MRP : {{productDetail.mrp}}</li>
+            <li class="selling_pice">RS: {{productDetail.price}}</li>
+
+          </ul>
+          <ul class="button">
+            <li class="button_add" (click)="addToCart(productDetail)">
+              <a>ADD CART</a>
+            </li>
+            <li class="button_plus" (click)="addToCart(productDetail)">
+              <a>+</a>
+            </li>
+
+            <li class="no_of_item">{{productDetail.productCount}}</li>
+
+            <li class="button_minus" (click)="removeOneItem(productDetail)">
+              <a>-</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+  </div>
+
+
+
+  <div class="footer">
+    <div>
+
+      <span class="item-count">Qty : {{totalCount}}</span>
+      <span class="item-count"> Total : {{totalPrice}}</span>
+
+    </div>
+    <div>
+      <span class="checkout_button">CHECKOUT</span>
+
+    </div>
+  </div>
+</div>
