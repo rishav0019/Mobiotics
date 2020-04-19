@@ -12,7 +12,7 @@ export class CheckoutComponent implements OnInit {
   count = 0;
   totalCount = 0;
   totalPrice = 0;
-
+  showFooter = false;
   productDetails: any[] = [];
   purchedProducts: any[] = [];
   constructor(
@@ -21,8 +21,9 @@ export class CheckoutComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.productDetails = this.cartDetailsService.items;
-    // console.log(this.productDetails);
+    this.cartDetailsService.fetchData().subscribe((res) => {
+      this.productDetails = res;
+    });
   }
   addToCart(product) {
     product.productCount++;
@@ -49,15 +50,8 @@ export class CheckoutComponent implements OnInit {
     }
   }
   checkout() {
-    console.log(".........................");
-    if (this.totalPrice >= 0) {
-      // this.dialog.open(SuccessDialogComponent, {
-      //   width: "250px",
-      //   // height: "300px",
-      //   data: {
-      //     totalPrice: this.totalPrice,
-      //   },
-      // });
+    // console.log(".........................");
+    if (this.totalPrice <= 0) {
     } else {
       this.dialog.open(SuccessDialogComponent, {
         width: "250px",

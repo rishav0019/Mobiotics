@@ -1,0 +1,104 @@
+[
+
+  {
+    "productName": "Milkfood Rich Desi Danedar Ghee(Carton)",
+    "brandName": "Milkfood",
+    "quantity": "1 L",
+    "price": 408,
+    "mrp": 498,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/512rQiXQNyL.jpg",
+    "offerText": "20 % Off",
+    "productCount": 0
+  },
+
+  {
+    "productName": "Grofers Mother Choice Desi Ghee ",
+    "brandName": "Grofers Mother Choice ",
+    "quantity": "1 L",
+    "price": 568,
+    "mrp": 708,
+    "imageUrl": "https://cdn.grofers.com/app/images/products/full_screen/pro_391298.jpg",
+    "offerText": "8 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Amul Pure Ghee",
+    "brandName": "Amul ",
+    "quantity": "1 L",
+    "price": 411,
+    "mrp": 450,
+    "imageUrl": "http://www.kolkatabazar.co.in/wp-content/uploads/2016/06/30634951ltr.jpg",
+    "offerText": "10 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Patanjali Pure ghee (carton)",
+    "brandName": "Patanjali",
+    "quantity": "1 L",
+    "price": 399,
+    "mrp": 425,
+    "imageUrl": "https://5.imimg.com/data5/PK/YG/MY-42495648/patanjali-cow-27s-ghee-2c-200ml-500x500.jpg",
+    "offerText": "20 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Gowarghan Natural Ghee",
+    "brandName": "Gowarghan ",
+    "quantity": "1 L",
+    "price": 1000,
+    "mrp": 1100,
+    "imageUrl": "https://image3.mouthshut.com/images/imagesp/925739282s.jpg",
+    "offerText": "22 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Lakme Perfect Radiance Intense Whitening Compact ",
+    "brandName": "Lakme",
+    "quantity": "100 ML",
+    "price": 500,
+    "mrp": 625,
+    "imageUrl": "https://i.ebayimg.com/images/g/LJkAAOSwZZlboTUh/s-l300.jpg",
+    "offerText": "15 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Ponds Moisturising Cold Cream",
+    "brandName": "Ponds",
+    "quantity": "300 ML",
+    "price": 150,
+    "mrp": 200,
+    "imageUrl": "https://images-static.nykaa.com/media/catalog/product/tr:w-50,h-50,cm-pad_resize/8/9/8901030483127_2.jpg",
+    "offerText": "5 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Ponds Men Energy Bright  Face Wash",
+    "brandName": "Ponds",
+    "quantity": "100 ML",
+    "price": 125,
+    "mrp": 146,
+    "imageUrl": "https://d27zlipt1pllog.cloudfront.net/pub/media/catalog/product/p/o/pon0221_7.jpg",
+    "offerText": "12 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Sacred Salts Charcoal Cream Face Wash",
+    "brandName": "NYKAA",
+    "quantity": "25 ML",
+    "price": 258,
+    "mrp": 356,
+    "imageUrl": "https://images-static.nykaa.com/media/catalog/product/tr:w-50,h-50,cm-pad_resize/s/s/ssor017_sacred_salts_charcoal_face_wash_1.jpg",
+    "offerText": "29 % Off",
+    "productCount": 0
+  },
+  {
+    "productName": "Oshea Herbals Activated Charcoal Face Wash",
+    "brandName": "NYKAA",
+    "quantity": "10 ML",
+    "price": 1250,
+    "mrp": 1500,
+    "imageUrl": "https://images-static.nykaa.com/media/catalog/product/tr:w-50,h-50,cm-pad_resize/8/9/8906036215185_1.jpg",
+    "offerText": "40 % Off",
+    "productCount": 0
+  }
+]

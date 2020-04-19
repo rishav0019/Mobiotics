@@ -4,17 +4,14 @@
 
 .container {
   padding: 0 25%;
-
 }
 
 .card {
   margin-bottom: 80px;
-
 }
 
 .item-container {
   display: flex;
-
 }
 
 .description {
@@ -31,7 +28,6 @@
 .image img {
   width: 100px;
   height: 100px;
-
 }
 
 .offer_text {
@@ -57,7 +53,6 @@ ul {
   display: flex;
 
   justify-content: space-between;
-
 }
 
 .button li {
@@ -121,12 +116,13 @@ ul {
   cursor: pointer;
 }
 
-
-@media(max-width:40rem) {
+hr {
+  border-bottom: 1px solid #0044ff;
+}
+@media (max-width: 40rem) {
   .container {
     padding: 0px;
     /* margin: 0; */
-
   }
 
   .description {
